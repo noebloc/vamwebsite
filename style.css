@@ -1,0 +1,270 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    }
+
+body{
+        background-color: #0A0A0A;
+        color: #f4F4F4;
+        line-height: 1.6;
+        
+    }
+
+a{
+    text-decoration: none;
+    color: #f4F4F4;
+}    
+
+/* Navigation */ 
+#navigation{
+    width: 100%;
+    position: fixed;
+    background: linear-gradient(to bottom, rgba(10,10,10,1) 0%,rgba(10,10,10,1) 47%,rgba(10,10,10,0.1) 98%,rgba(10,10,10,0.1) 100%);
+    z-index: 3;
+}
+#navC{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+}
+.logo{
+    padding-left: 5%;
+    font-size: 3em;
+    font-weight: 900;
+    font-family: "Syne";
+}
+
+.links{
+    text-transform: uppercase;
+    font-size: 1.5em;
+    font-family: "Inter";
+}
+
+.links,a{
+    padding: 4%;
+}
+/* Footer */ 
+#logo1{
+    font-size: 6em;
+    font-weight: 900;
+    font-family: "Syne";
+    line-height: 1em;
+}
+#logo2{
+    line-height: 0;
+    text-transform: uppercase;
+    font-family: "Krona One";
+    font-weight: 100;
+    text-align: right;
+}
+#linksF a{
+    font-size: 3em;
+    line-height: .5em;
+    text-transform: uppercase;
+    font-family: "Krona One";
+    display: block;
+}
+#logoCombine{
+    align-self: center;
+    justify-self: center;
+}
+
+
+/* BodyC */ 
+#bodyC{
+    padding-top: 5%;
+    display: grid;
+    grid-template-columns:auto;
+    grid-template-rows:1fr;
+}
+
+/* Display */ 
+#display{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    padding: 5% 0% 10%;
+}
+
+#disPic1{
+    width: 80%;
+    height: 16em;
+    object-fit: cover;
+    
+}
+
+#disPic2{
+    width: 80%;
+    position: relative;
+    z-index: -1;
+    
+}
+
+#disPic3{
+    width: 80%;
+    
+}
+
+#sub{
+    font-size: 1em;
+    font-family: "Krona One";
+    font-weight: 700;
+}
+
+.threeGroup{
+    font-size: 6em;
+    font-family: "Syne";
+    font-weight: 900;
+    position: absolute;
+}
+/* Columns*/ 
+.oneColumn{
+    display: grid;
+    grid-template-columns:1fr;
+    grid-template-rows:1fr;
+    padding: 0% 5% 7%;
+}
+.twoColumn{
+    display: grid;
+    grid-template-columns:repeat(auto-fit, minmax(400px, 1fr));
+    grid-template-rows:1fr;
+    padding: 0% 5%;
+    gap: 2%;
+}
+.twoColumnLong{
+    display: grid;
+    grid-template-columns:2fr 1fr;
+    grid-template-rows:1fr;
+    padding: 0% 5%;
+    gap: 2%;
+}
+.twoColumnF{
+    display: grid;
+    grid-template-columns:repeat(auto-fit, minmax(400px, 1fr));
+    padding: 10% 5%;
+    gap: 2%;
+}
+.threeColumn{
+    display: grid;
+    grid-template-columns:repeat(auto-fit, minmax(400px, 1fr));
+    padding: 7% 5%;
+    gap: 2%;
+}
+.anotherbox1{
+    align-self: start;
+}
+
+.anotherbox2{
+    align-self: end;
+    justify-self: end;
+}
+/* About */ 
+
+.bBox{
+    display: grid;
+    grid-template-columns:1fr;
+    grid-template-rows:1fr;
+}
+.hBio{
+    font-size: 4.3em;
+    text-transform: uppercase;
+    font-family: "Krona One";
+    font-weight: 100;
+}
+#hDesign{
+    color:#c42847;
+    text-align: right;
+}
+
+#aboutPic1{
+    width:100%;
+}
+
+#aboutPic2{
+    width:100%;
+    height: 7em;
+    object-fit: cover;
+}
+
+#bio{
+    padding: 5%;
+    grid-column: 1/2;
+    grid-row: 2;
+    text-wrap: balance;
+}
+#about2{
+    font-size: 3em;
+    font-family: "Inter";
+    padding: 5% 5%;
+    font-weight: 100;
+    text-align: justify;
+}
+
+#features{
+    padding: 5% 5%;
+}
+/* Features */ 
+#fPic1{
+    width: 100%;
+}
+/* Call to Action*/ 
+#aPic{
+    width: 100%;
+    
+}
+.hAction{
+    color:#87A330;
+    text-align: right;
+}
+
+/* Services */ 
+#serviceList{
+    font-size: 3em;
+    font-family: "Inter";
+    font-weight: 100;
+    text-transform: uppercase;
+    padding: 3em 3em 3em 2em;
+}
+
+#sTitle{
+    font-size: 3.5em;
+    text-transform: uppercase;
+    font-family: "Krona One";
+    font-weight: 100;
+    padding-top: 7em;
+    align-self: center;
+    justify-self: center;
+    
+}
+
+/* Gallery */ 
+.gPic1{
+    width: 100%;
+}
+
+#gPic2{
+    width: 100%;
+    height: 10em;
+    object-fit: cover;
+    
+}
+
+#gPic3{
+    width: 100%;
+    height: 10em;
+    object-fit: cover;
+   
+}
+
+#galleryP{
+    font-family: "Inter";
+    line-height: 1.7em;
+    font-weight: 100;
+}
+
+#gPic4{
+    width: 100%;
+    height: 25em;
+    object-fit: cover;
+}
+
+
+
